@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#container{
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: rgb(245, 235, 240);
+    margin: 0;
+    padding: 1.3rem 4rem;
+    font-size: 3rem;
+    font-family: 'Pangolin', cursive;
+    font-weight: 500;
+}
+#delight{
+    color: rgb(66, 55, 55);
+    background-color: rgb(245, 235, 240);
+    font-size: 4rem;
+}
+#cosmetics{
+    color: rgb(231, 118, 180);
+    color: pink;
+    font-size: 4rem;
+    background-color: rgb(245, 235, 240);
+}
+
+#navbar{
+    display: flex;
+    padding: 1rem 1rem;
+    /* border: 1px solid black; */
+}
+.navbar-ul{
+    display:flex;
+    /* border: 1px solid black; */
+    margin-right: 3rem;
+    width: 60%;
+}
+#navbar ul li{ 
+    list-style: none;   
+}
+.navbar-ul li a{
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    color: rgb(62, 50, 50);
+    font-size: 1.3rem;
+    font-family: 'Pangolin', cursive;
+    font-weight: 300px;
+    padding: 0px 13px;
+    /* border: 1px solid black; */
+    margin: 0 0.3rem;
+}
+ul li a:hover{
+    /* background-color: black; */
+    color: rgb(250, 194, 212);
+}
+.nav-search{
+    display: flex;
+    flex-direction: row;
+}
+#search{
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-left: 320px;
+    width: 120px;
+    background-color: rgb(241, 228, 237);
+    border: 0;
+}
+#man{
+    height: 2rem;
+    width: 2rem;
+}
+#cart{
+    height: 2rem;
+    width: 2rem;
+}
+#bairerdiv{
+    background: url('beauty.jpg');
+    position: relative;
+    min-height: 80vh;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+}
+ul li ul .dropdown li{
+    display: inline-block;
+}
+.dropdown li{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+ul li:hover ul .dropdown{
+    display: block;
+}
+#shop{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#shop a{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px;
+}
+#shop a:hover{
+    color: gray;
+}
+#shop .btn{
+    text-align: center;
+    width: 33%;
+    border-radius: 20px;
+    padding: 5px 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    background-color: black;
+    color: rgb(253, 213, 226);
+    border: 0;
+    margin: 8px 0px 0px 50px;
+    cursor: pointer;
+    transition: 300ms;
+}
+#shop .btn:hover{
+    font-size: large;
+}
+.heading{
+    font-size: 4rem;
+    font-family: 'Pangolin', cursive;
+    color: rgb(66, 55, 55);
+    margin: 5rem auto 4rem 1.5rem;
+}
+/* ----------------------------
+     Sorting Box
+---------------------------- */
+.filter-condition{
+    padding: 10px 20px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.filter-condition select{
+    width: 120px;
+    padding: 0 0 0 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: purple;
+    background: transparent;
+    cursor: pointer;
+}
+.new{
+    margin: 3rem 0.5rem;
+}
+
+
+.card{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.item .btn{
+    width: 50%;
+    border-radius: 20px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    background-color: black;
+    color: rgb(253, 213, 226);
+    border: 0;
+    margin: 8px 12px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.item .btn:hover{
+    background-color: rgb(253, 213, 226);
+    color: black;
+    font-weight: 500;
+}
+
+#addtocart{
+    width: 70%;
+}
+.item{
+    margin: 0.5rem;
+    /* border: 1px solid black; */
+    padding: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(248, 243, 240);
+    border-radius: 5px;
+}
+.price{
+    padding: 7px;
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.delete{
+    font-size: 0.9rem;
+    color: rgb(82, 80, 80);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#shade{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Pangolin', cursive;
+    color: black; 
+}
+.resize{
+    height: 200px;
+    width: 200px;
+}
+
+
+/* footer starts here */
+
+.footer-ul{
+    list-style: none;   
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 130px;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 22%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    font-family: 'Pangolin', cursive;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: o;
+    bottom: -10px;
+    background-color: #9e747b;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-ul li:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+.footer-ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-btn{
+    width: 50%;
+    border-radius: 20px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    background-color: black;
+    color: rgb(253, 213, 226);
+    border: 0;
+    margin: 8px 12px;
+    cursor: pointer;
+    text-align: center;
+}
+.card-btn:hover{
+    background-color: rgb(253, 213, 226);
+    color: black;
+    font-weight: 500;
+    transition: 300ms;
+}

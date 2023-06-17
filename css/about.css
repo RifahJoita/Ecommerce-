@@ -1,0 +1,17 @@
+.about, .location{
+    background-color: #24262b;
+    color: rgba(232, 224, 226, 0.852);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+.about p{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.location{
+    padding-bottom: 4rem;
+}
+.location a{
+    text-decoration: underline;
+    color: rgba(232, 224, 226, 0.852);
+}

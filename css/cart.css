@@ -1,0 +1,92 @@
+
+.shopping-cart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Pangolin', cursive;
+    align-items: center;
+    
+    background-color: #f9f7f3;
+    /* background-color: blacka; */
+    padding: 34px;
+    font-size: 1.4rem;
+    border: hidden;
+    color: #24262b;
+    /* color: #f9f3eb; */
+}
+
+.cart-table{
+    background-color: rgb(243, 230, 232);
+    /* background-color: rgb(88, 83, 83); */
+}
+
+td, th{
+    padding: 27px 54px;
+    border: 0;
+}
+.t-img{
+    height: 80px;
+    width: 80px;
+}
+.t-a{
+    width: 10%;
+    /* border-radius: 24px; */
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color:  black;
+    color: rgb(253, 213, 226);
+    color: #f9f3eb;
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 400ms;
+}
+.t-a:hover{
+    background-color: #f9f3eb;
+    color: black;
+    border: 1px solid black;
+}
+.checkout{
+    margin: 50px 0px;
+    
+}
+.option-btn{
+    background-color: black;
+    color: #f9f3eb;
+    padding: 3px;
+}
+.option-btn:hover{
+    background-color: #f9f3eb;
+    color: black;
+    padding: 3px;
+    transition: 400ms;
+}
+.quantity-input{
+    width: 40px;
+    height: 25px;
+    border-radius: 2px;
+    border: none;
+}
+.delete-btn{
+    height: 20px;
+    width: 2px;
+    color: rgb(116, 113, 113);
+    font-size: 17px;
+}
+.shopping-done{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Pangolin', cursive;
+    align-items: center;
+    background-color: rgb(243, 230, 232);
+    /* background-color: black; */
+    padding: 130px 34px;
+    font-size: 3rem;
+    color: #24262b;
+    /* color: #f9f3eb; */
+}
+.write{
+    font-size: 2rem;   
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Profile */
+.profile{
+    background-color: #24262b;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.profile-form
+{
+    width: 500px;
+    box-shadow: 2px 2px 3px 0 rgba(0,0,0,0,3);
+    background: #24262b;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.profile-form h1, h2
+{
+    color: rgba(232, 224, 226, 0.852);
+    margin-bottom: 30px;
+}
+.profile-form-btn button
+{
+    color:#fff;
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background-color: white;
+    color: #fabc;
+    border: 1px solid #fabc;
+}
+.profile-btn
+{
+    background-color: #fabc;
+}
+
+

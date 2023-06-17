@@ -1,0 +1,27 @@
+#navbar{
+    flex-direction: column;
+}
+.navbar-ul{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.nav-search{
+    /* align-items: center; */
+    justify-content: center;
+}
+.nav-ul li a{
+    font-size: 0.8rem;
+    padding: 0 0;
+}
+#bairerdiv{
+    min-height: 50vh;
+}
+.footer{
+    padding: 20px 0;
+    font-size: 0.7rem;
+}
+td, th{
+    padding: 10px 15px;
+    font-size: 1rem;
+}
